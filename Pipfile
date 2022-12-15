@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = ">=1.4.1"
+numpy = ">=1.22.2"
+vecsim = ">=0.0.2"
+clip = {editable = true, ref = "main", git = "https://github.com/openai/CLIP.git"}
+flask = "*"
+pyarrow = "*"
+jupyter = "*"
+pillow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
